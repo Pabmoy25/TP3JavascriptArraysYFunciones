@@ -10,13 +10,11 @@ lado B = 5
 Output: 58
 */
 
-
-const ladoA = parseFloat(prompt('Ingrese el valor de Lado A'));
-const ladoB = parseFloat(prompt('Ingrese el valor de Lado B'));
-
 function perimetro(ladoA,ladoB){
  const formulaDePerimetro =  2 * (ladoA + ladoB);
  document.write(`<h2>El resultado del Perímetro es ${formulaDePerimetro}</h2>`)
 }
 
+const ladoA = parseFloat(prompt('Ingrese el valor de Lado A'));
+const ladoB = parseFloat(prompt('Ingrese el valor de Lado B'));
 perimetro(ladoA,ladoB);
